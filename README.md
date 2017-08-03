@@ -1,3 +1,3 @@
 # thomasjackdalby.github.io
 
-Contains all the source for the site.
+As you can probably guess, this is the repo for my site. Nothing too fancy... I quite like the whole Jekyll thing :O
