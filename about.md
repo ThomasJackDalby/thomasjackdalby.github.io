@@ -7,7 +7,9 @@ js:
      - lib/p5.js
 ---
 
-<div id="sketch-holder" style="width:800px; margin:0 auto; justify-content: center; align-items: center;"/>
+Pretty sure there should be content around here somewhere...
+
+<!--<div id="sketch-holder" style="width:800px; margin:0 auto; justify-content: center; align-items: center;"/>-->
 
 {% for js in page.js %}
 <script type="text/javascript">

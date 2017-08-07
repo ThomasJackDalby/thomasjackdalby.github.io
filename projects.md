@@ -4,8 +4,4 @@ title: Projects
 permalink: /projects/
 ---
 
-<p> start sketch </p>
-<div id="sketch-holder">
-<p> end sketch </p>
-
-</div>
+No projects have been written up here as of yet...
