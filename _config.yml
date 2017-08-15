@@ -15,7 +15,7 @@ title:            Tom Dalby
 tagline:          ' '
 description:      'A sporadic dev blog.'
 url:              http://thomasjackdalby.github.io
-baseurl:          /
+#baseurl:          /
 
 author:
   name:           'Tom Dalby'
