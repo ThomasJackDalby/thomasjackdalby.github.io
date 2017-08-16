@@ -1,15 +1,9 @@
 # Dependencies
 markdown:         kramdown
-
-kramdown:
-  input: GFM
-  hard_wrap: false
-
-#highlighter: rouge
+highlighter: rouge
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
 title:            Tom Dalby
@@ -21,6 +15,8 @@ baseurl:          /
 author:
   name:           'Tom Dalby'
   url:            https://twitter.com/mdo
+
+plugins: [jekyll-paginate]
 
 paginate:         5
 
