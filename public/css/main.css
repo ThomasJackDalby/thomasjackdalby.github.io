@@ -1,0 +1,22 @@
+.comment {
+    border-top: 2px solid darkgray;
+}
+
+textarea#feedback {
+  width: 375px;
+  height: 150px;
+  display: block;
+}
+
+input, textarea, select, button {
+  width : 150px;
+  margin: 5;
+
+  -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+     -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+          box-sizing: border-box;
+}
+
+input {
+  display: block;
+}
