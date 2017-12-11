@@ -54,6 +54,7 @@ Dragon curves are essentially curves, almost fractal like in nature. They take t
 
 
 <link rel="stylesheet" href="css/layout.css" />
+<link rel="stylesheet" href="css/syntax.css" />
 <style type="text/css">
 body {
   background-color: #101010;
@@ -91,31 +92,31 @@ th {
   color: #101010;
 }
 
-.siteTitle a { color: #99cc66; }
+.siteTitle a { color: #67e5ee; }
 
-.post .content h1{ color: #99cc66; }
-.post .content h2{ color: #99cc66; }
-.post .content h3{ color: #99cc66; }
-.post .content h4{ color: #99cc66; }
-.post .content h5{ color: #99cc66; }
-.post .content h6{ color: #99cc66; }
-.post .content a:hover { color: #99cc66; }
-.social-link:hover { color: #99cc66; }
-.nav-item-title:hover { color: #99cc66; }
-.tag a:hover { color: #99cc66; }
+.post .content h1{ color: #67e5ee; }
+.post .content h2{ color: #67e5ee; }
+.post .content h3{ color: #67e5ee; }
+.post .content h4{ color: #67e5ee; }
+.post .content h5{ color: #67e5ee; }
+.post .content h6{ color: #67e5ee; }
+.post .content a:hover { color: #67e5ee; }
+.social-link:hover { color: #67e5ee; }
+.nav-item-title:hover { color: #67e5ee; }
+.tag a:hover { color: #67e5ee; }
 .copyright { color: #404040 }
 .poweredby { color: #404040 }
 .poweredby a { color: #404040; }
-.post-preview .title a{ color: #99cc66; }
+.post-preview .title a{ color: #67e5ee; }
 .content-item a:hover{
   text-decoration: underline;
-  color: #99cc66;
+  color: #67e5ee;
 }
-.post-list .title { color: #99cc66; }
-.rmore { color: #99cc66; }
+.post-list .title { color: #67e5ee; }
+.rmore { color: #67e5ee; }
 .terms .term a:hover {
   text-decoration: underline;
-  color: #99cc66;
+  color: #67e5ee;
 }
 
 </style>
@@ -254,7 +255,7 @@ In it there are various maths related articles covering the whole spectrum, but 
 
 <p>And then, hey presto!</p>
 
-<p><img src="/dragoncurves/curve1.png" alt="An order 1 dragon curve!" /></p>
+<p><img src="/img/dragoncurves/curve1.png" alt="An order 1 dragon curve!" /></p>
 
 <p>It&rsquo;s then pretty easy to create a function that will let us create a few curves in one image.</p>
 
@@ -268,15 +269,15 @@ In it there are various maths related articles covering the whole spectrum, but 
 
 <p>The push() and the pop() here, are taking a snapshot of the current reference frame, and then &ldquo;popping&rdquo; back to that. This allows fairly complex transforms to draw the curves, but contains those transforms inside a function, without leaking out into the rest of the script. This helps, as otherwise any transform you applied to the reference frame, would affect EVERYTHING you subsequently draw.. yeah..</p>
 
-<p><img src="/dragoncurves/curves1to4.png" alt="Dragon curves from order 1 to 4" /></p>
+<p><img src="/img/dragoncurves/curves1to4.png" alt="Dragon curves from order 1 to 4" /></p>
 
 <p>We can take this a step further though. Another great property of dragon curves is that they tesselate!</p>
 
-<p><img src="/dragoncurves/curvespatch4.png" alt="4 curves rotated into a patch" /></p>
+<p><img src="/img/dragoncurves/curvespatch4.png" alt="4 curves rotated into a patch" /></p>
 
 <p>We can then also tesselate the patches by offsetting them in x and y.</p>
 
-<p><img src="/dragoncurves/patched.png" alt="Full patch" /></p>
+<p><img src="/img/dragoncurves/patched.png" alt="Full patch" /></p>
 
 <p>So naturally you can go on and on! I&rsquo;ll end the post here, but If you want to play with the code, the source is on <a href="https://github.com/ThomasJackDalby/experimental/tree/master/dragoncurves">github</a>! Feel free to experiment!</p>
 
@@ -295,6 +296,8 @@ In it there are various maths related articles covering the whole spectrum, but 
 
 </footer>
 
+
+  
 
 
 </article>

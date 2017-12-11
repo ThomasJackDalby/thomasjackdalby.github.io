@@ -23,15 +23,6 @@ I&amp;rsquo;ve found that there is quite a selection of different approaches for
     </item>
     
     <item>
-      <title>A Python Module Hell</title>
-      <link>/posts/2017-09-28-python-modules/</link>
-      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/2017-09-28-python-modules/</guid>
-      <description>A Python Module Hell Python has many good features, but I find some aspects of it frustrating. For example, I thought I fully understood the whole module/submodule thing&amp;hellip; just add a init.py file right? Well. After bouldering in with my C# namespace head on, I seemed to hit the &amp;ldquo;no module named ?!#! exception more than once, so figured I would sit down and learn it once and for all.</description>
-    </item>
-    
-    <item>
       <title>Weave</title>
       <link>/posts/2017-08-07-weaving/</link>
       <pubDate>Mon, 07 Aug 2017 12:00:00 +0000</pubDate>

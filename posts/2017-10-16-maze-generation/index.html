@@ -46,7 +46,7 @@ I&rsquo;ve found that there is quite a selection of different approaches for pro
 
 <meta itemprop="datePublished" content="2017-10-16T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2017-10-16T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="280">
+<meta itemprop="wordCount" content="274">
 
 
 
@@ -54,6 +54,7 @@ I&rsquo;ve found that there is quite a selection of different approaches for pro
 
 
 <link rel="stylesheet" href="css/layout.css" />
+<link rel="stylesheet" href="css/syntax.css" />
 <style type="text/css">
 body {
   background-color: #101010;
@@ -91,31 +92,31 @@ th {
   color: #101010;
 }
 
-.siteTitle a { color: #99cc66; }
+.siteTitle a { color: #67e5ee; }
 
-.post .content h1{ color: #99cc66; }
-.post .content h2{ color: #99cc66; }
-.post .content h3{ color: #99cc66; }
-.post .content h4{ color: #99cc66; }
-.post .content h5{ color: #99cc66; }
-.post .content h6{ color: #99cc66; }
-.post .content a:hover { color: #99cc66; }
-.social-link:hover { color: #99cc66; }
-.nav-item-title:hover { color: #99cc66; }
-.tag a:hover { color: #99cc66; }
+.post .content h1{ color: #67e5ee; }
+.post .content h2{ color: #67e5ee; }
+.post .content h3{ color: #67e5ee; }
+.post .content h4{ color: #67e5ee; }
+.post .content h5{ color: #67e5ee; }
+.post .content h6{ color: #67e5ee; }
+.post .content a:hover { color: #67e5ee; }
+.social-link:hover { color: #67e5ee; }
+.nav-item-title:hover { color: #67e5ee; }
+.tag a:hover { color: #67e5ee; }
 .copyright { color: #404040 }
 .poweredby { color: #404040 }
 .poweredby a { color: #404040; }
-.post-preview .title a{ color: #99cc66; }
+.post-preview .title a{ color: #67e5ee; }
 .content-item a:hover{
   text-decoration: underline;
-  color: #99cc66;
+  color: #67e5ee;
 }
-.post-list .title { color: #99cc66; }
-.rmore { color: #99cc66; }
+.post-list .title { color: #67e5ee; }
+.rmore { color: #67e5ee; }
 .terms .term a:hover {
   text-decoration: underline;
-  color: #99cc66;
+  color: #67e5ee;
 }
 
 </style>
@@ -196,7 +197,7 @@ th {
 
 <p>If he digs himself into a cell which has already has tunnels behind the other three walls, he walks back along the tunnel to the first cell which has a wall which does not back onto a tunnel, and carries on with his random digging.</p>
 
-<p><img src="/maze_generation/depth_1.gif" alt="Depth first" />{: .center-image }</p>
+<p><img src="/img/maze_generation/depth_1.gif" alt="Depth first" /></p>
 
 <p>This approach works pretty well, however has a tendency to produce long tunnels with little branching, as branching only occurs when longer tunnels get stuck.</p>
 
@@ -204,7 +205,7 @@ th {
 
 <p>This approach is a bit different. At each step of the algorithm, a walker takes a random path around the grid of cells, keeping track of where they have walked. If they walk onto a spot they&rsquo;ve already walked on, they &ldquo;forget&rdquo; all the path they&rsquo;ve walked since that spot, and then continue on. If they walk onto a spot they walked on during a previous path</p>
 
-<p><img src="/maze_generation/walk_1.gif" alt="Random walking" />{: .center-image }</p>
+<p><img src="/img/maze_generation/walk_1.gif" alt="Random walking" /></p>
  </div>
     <footer class="post-footer">
 
@@ -219,6 +220,8 @@ th {
 
 </footer>
 
+
+  
 
 
 </article>
