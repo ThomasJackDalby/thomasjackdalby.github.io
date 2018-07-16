@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2017, all rights reserved.</copyright>
-    <lastBuildDate>Mon, 16 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Terrain generation</title>
+      <link>/posts/2018-07-13-terrain/</link>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2018-07-13-terrain/</guid>
+      <description>Procedural terrain generation in p5 So here I am again, tinking around with procedural generation. The recent interest started from another TheCodingTrain video from Daniel Shiffman, specifically around using perlin noise to create this essence of flying over a landscape. Following his youtube video, I got a decent first pass.
+You can probably notice that the shading isn&amp;rsquo;t all that good. And it also seems to run in strips along the mesh.</description>
+    </item>
     
     <item>
       <title>Maze Generation</title>
